@@ -1,8 +1,10 @@
 import {Col, Container, Row} from "react-bootstrap";
 import Image from 'react-bootstrap/Image';
 import heroImage from '../assets/hero-image.png';
+import DocumentTitle from "./DocumentTitle";
 
 function About(){
+    DocumentTitle("About | Sonam Dargay")
     return(
         <Container>
             <div className="about-page">
@@ -30,10 +32,10 @@ function About(){
                             </p>
                             <p>
                                 I'm passionate about freelancing and contributing to open-source projects.
-                                You can check out my projects <a href="link-to-projects">here</a>.
+                                You can check out my projects <a href="https://github.com/sonamdargay?tab=repositories">here</a>.
                             </p>
                             <p>
-                                Connect with me on <a href="link-to-linkedin">LinkedIn</a>.
+                                Connect with me on <a href="https://www.linkedin.com/in/sonam-dargay/">LinkedIn</a>.
                             </p>
                         </div>
                     </Col>

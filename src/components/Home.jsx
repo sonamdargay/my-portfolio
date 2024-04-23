@@ -8,8 +8,11 @@ import {useEffect, useState} from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun, faCloud, faCloudRain, faSnowflake, faMeteor } from '@fortawesome/free-solid-svg-icons';
 import {Link} from "react-router-dom";
+import DocumentTitle from "./DocumentTitle";
 
 function Home() {
+
+    DocumentTitle("Home | Sonam Dargay");
 
     const [weather, setWeather] = useState(null);
 

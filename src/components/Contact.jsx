@@ -1,8 +1,12 @@
 import {Button, Container} from "react-bootstrap";
 import Form from 'react-bootstrap/Form';
 import {useState} from "react";
+import DocumentTitle from "./DocumentTitle";
 
 function  Contact(){
+
+    DocumentTitle("Contact me | Sonam Dargay");
+
     const [formData, setFormData] = useState({
         name: '',
         email: '',
