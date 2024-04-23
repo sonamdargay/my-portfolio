@@ -7,8 +7,10 @@ const Footer = () => {
             <Container>
                 <Row>
                     <Col md={6}>
-                        <h5>About Us</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h5>Bio</h5>
+                        <p>Full-stack developer with experience in Spring MVC & Spring Boot frameworks for the backend and Angular for
+                            the front end. Demonstrated project management skills in enhancing the interoperable payment system of Bhutan
+                            using ISO 8583 messaging standards.</p>
                     </Col>
                     <Col md={3}>
                         <h5>Quick Links</h5>
@@ -16,22 +18,22 @@ const Footer = () => {
                             <li><a href="/">Home</a></li>
                             <li><a href="/about">About</a></li>
                             <li><a href="/projects">Projects</a></li>
-                            <li><a href="/contact">Contact</a></li>
+                            <li><a href="/src/components/Contact">Contact</a></li>
                         </ul>
                     </Col>
                     <Col md={3}>
-                        <h5>Contact Us</h5>
+                        <h5>Contact Me</h5>
                         <ul className="list-unstyled">
-                            <li>Email: info@example.com</li>
-                            <li>Phone: +1 234 567 890</li>
-                            <li>Address: 123 Street, City, Country</li>
+                            <li>Email: sonamdargay167@gmail.com</li>
+                            <li>Phone: +61 433 500 752</li>
+                            <li>Address: QUT, Queensland AUSTRALIA</li>
                         </ul>
                     </Col>
                 </Row>
                 <hr className="bg-light" />
                 <Row>
                     <Col>
-                        <p className="text-center mb-0">&copy; {new Date().getFullYear()} Your Portfolio</p>
+                        <p className="text-center mb-0">&copy; {new Date().getFullYear()} Sonam Dargay</p>
                     </Col>
                 </Row>
             </Container>
