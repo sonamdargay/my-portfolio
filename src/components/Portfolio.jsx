@@ -1,9 +1,9 @@
-import {Button, Card, Container, Row} from "react-bootstrap";
+import {Card, Container, Row} from "react-bootstrap";
 import Form from 'react-bootstrap/Form';
 import {useEffect, useState} from "react";
 import axios from "axios";
-import {Link} from "react-router-dom";
 import DocumentTitle from "./DocumentTitle";
+import ExternalLinkButton from "./ExternalLinkButton";
 
 function Portfolio() {
     DocumentTitle("Portfolio | Sonam Dargay");
@@ -49,7 +49,11 @@ function Portfolio() {
     return(
         <Container>
             <h1>Portfolio</h1>
-            <h5>My GitHub Repositories</h5>
+            <p>I have been a part of many development projects. Details of these projects are shown on my GitHub profile.</p>
+            <ExternalLinkButton variant={'light'} href={'https://github.com/sonamdargay'} buttonText={'GitHub <- Click Here'}></ExternalLinkButton>
+            <br/>
+            <br/>
+            <h5>My Public GitHub Repositories</h5>
             <Form.Control
                 placeholder="Search my GitHub repositories"
                 aria-label="Recipient's username"
@@ -70,9 +74,7 @@ function Portfolio() {
                                 <Card.Text>
                                     {repo.description}
                                 </Card.Text>
-                                <Button variant="light">
-                                    <Link to={repo.html_url}>{repo.name}</Link>
-                                </Button>
+                                <ExternalLinkButton variant={'primary'} buttonText={repo.name} href={repo.html_url}></ExternalLinkButton>
                             </Card.Body>
                         </Card>
                     ))}

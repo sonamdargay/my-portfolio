@@ -41,4 +41,4 @@ const Footer = () => {
     );
 };
 
-export d
+export default Footer;
