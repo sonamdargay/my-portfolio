@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
+// Footer component
 const Footer = () => {
     return (
         <footer className="bg-light py-4">

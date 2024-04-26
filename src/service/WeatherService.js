@@ -6,6 +6,11 @@ const BASE_URL = 'https://api.openweathermap.org/data/2.5/weather';
 const LAT = -27.4705
 const LONG = 153.0260;
 
+/**
+ * To get weather data
+ * @returns {Promise<any|null>}
+ */
+
 const getWeather = async () => {
     try {
         const response = await axios.get(`${BASE_URL}?lat=${LAT}&lon=${LONG}&appid=${API_KEY}`);

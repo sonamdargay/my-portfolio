@@ -31,7 +31,7 @@ function Home() {
         if (condition === 'clear') {
             return 'https://img.freepik.com/free-photo/cloud-blue-sky_1232-3108.jpg';
         } else if (condition === 'clouds') {
-            return 'https://img.freepik.com/free-photo/blue-sky-with-cloud-closeup_150588-128.jpg';
+            return 'https://img.freepik.com/free-photo/white-clouds-clear-blue-sky_181624-44898.jpg';
         } else if (condition === 'rain') {
             return 'https://img.freepik.com/free-photo/weather-effects-composition_23-2149853295.jpg';
         } else {
@@ -65,7 +65,7 @@ function Home() {
 
     return (
 
-    <div className={`hero-section text-light`} style={{ backgroundImage: `url(${getBackgroundImage()})` }}>
+    <div className={`hero-section text-light`} style={{ backgroundImage: `url(${getBackgroundImage()})`}}>
         <Container>
             <Row className="justify-content-center">
                 <Col md={8} className="text-center">

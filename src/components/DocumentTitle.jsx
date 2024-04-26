@@ -1,5 +1,8 @@
 import { useEffect } from 'react'
 
+/**
+ * for changing document titles
+ */
 function DocumentTitle(title) {
 
     useEffect(() => {

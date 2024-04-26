@@ -29,3 +29,7 @@ body {
 .hero-section .btn {
     font-size: 1.2rem;
 }
+
+.blurred-background {
+    filter: blur(8px); /* Adjust the blur intensity as needed */
+}

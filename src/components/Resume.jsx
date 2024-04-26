@@ -1,6 +1,7 @@
 import {Col, Container, Row} from "react-bootstrap";
 import DocumentTitle from "./DocumentTitle";
 
+// Resume component
 function Resume() {
     DocumentTitle("Resume | Sonam Dargay");
     return(

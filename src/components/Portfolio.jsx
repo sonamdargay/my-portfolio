@@ -68,7 +68,6 @@ function Portfolio() {
                 <Row>
                     {searchResults.map(repo => (
                         <Card style={{ width: '18rem' }} key={repo.id}>
-                            {/*<Card.Img variant="top" src="" />*/}
                             <Card.Body>
                                 <Card.Title>{repo.name}</Card.Title>
                                 <Card.Text>
